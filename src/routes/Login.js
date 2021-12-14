@@ -1,9 +1,10 @@
 import React from 'react'
+import LoginContainer from '../containers/loginContainer/LoginContainer'
 
 const Login = () => {
     return (
-        <div>
-            Login
+        <div className='login-container'>
+            <LoginContainer/>
         </div>
     )
 }

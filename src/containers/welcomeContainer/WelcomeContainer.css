@@ -1,0 +1,23 @@
+.welcome-container-wrapper{
+    
+}
+.welcome-welcome-message {
+    font-family: var(--font-family);
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.welcome-second-message{
+    font-family: var(--font-family);
+    margin: 2em;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.welcome-continue-button{
+    float: right;
+    margin-right: 3em;
+    padding: 1em;
+    border-radius: 5px;
+    border: 0;
+}
