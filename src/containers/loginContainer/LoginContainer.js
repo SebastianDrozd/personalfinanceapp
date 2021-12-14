@@ -14,7 +14,7 @@ const LoginContainer = () => {
         e.preventDefault()
         loginuser({username: username,password: password}).then(
             response => {
-                console.log(response);
+                console.log("loginResponse",response);
                 localStorage.setItem("token",response.data.token);
                 dispatch(setUserStatus({username: response.data.username,loggedIn: true}))
                 if(response.data.accountSetUp){

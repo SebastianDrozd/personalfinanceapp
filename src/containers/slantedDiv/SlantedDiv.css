@@ -1,8 +1,10 @@
 .slanted-main-outer-container{
     
-   background-color: #e4faf8;
-   border-top-left-radius: 50% 100px;
+   background-color: #ffffff;
+  
     position: relative;
+    padding: 0em 5em;
+    margin-top: -10em;
     
 }
 .slanted-main-outer-container:after{
@@ -16,8 +18,8 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  transform-origin: top left;
-  transform: skewY(-4deg);
+ 
+ 
   
     
 }
@@ -29,18 +31,16 @@
     padding: 2em;
 }
 .slanted-title{
-    color: rgb(77, 76, 78);
     font-family: var(--font-family);
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 2em;
-    margin-top: 2em;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
 }
 .slanted-border-box{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 .slanted-border-box img{
     width: 20em;

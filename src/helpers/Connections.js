@@ -15,3 +15,19 @@ export const validateToken = (token) => {
       headers: headers
     })
 }
+export const createLinkToken= (createLinkTokenRequestDto,token) => {
+    const headers = {
+        'Authorization': 'Bearer ' + token
+      }
+    return axios.post('http://localhost:8080/api/plaid/create-link-token',createLinkTokenRequestDto,{
+        headers:headers
+    })
+}
+export const setAccessToken =(setAccessTokenDto,jwt) =>{
+    const headers = {
+        'Authorization': 'Bearer ' + jwt
+      }
+    return axios.post('http://localhost:8080/api/plaid/set-access-token',setAccessTokenDto,{
+        headers:headers
+    })
+}

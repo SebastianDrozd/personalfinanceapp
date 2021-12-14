@@ -6,9 +6,11 @@ import fans from '../../assets/fans.svg'
 const SlantedDiv = () => {
     return (
         <>
+        <div style={{padding: '8em 10em'}}>
             <div className="slanted-main-outer-container">
+   
                <div className="slanted-content">
-                   <p className='slanted-title'>Enjoy all your favorite Products</p>
+        
                    <div className="slanted-border-box">
                        <img src={win} alt="" />
                        <div className="slanted-inner-text">
@@ -33,6 +35,9 @@ const SlantedDiv = () => {
                    </div>
                </div>
             </div>
+   
+        </div>
+        <div className="image-wave"></div>
         </>
     )
 }

@@ -24,6 +24,7 @@ function App() {
     if(localStorage.getItem("token")){
       validateToken(localStorage.getItem("token")).then(response => {
         if(response.data.status === 'valid'){
+          console.log("app loaded", response)
           dispatch(setUserStatus({username: response.data.username,loggedIn: true}))
           return;
         }
@@ -36,7 +37,7 @@ function App() {
       })
     }
     else{
-      dispatch(setUserStatus({username: "".username,loggedIn: false}))
+      dispatch(setUserStatus({username: "",loggedIn: false}))
     }
   },[])
   return (

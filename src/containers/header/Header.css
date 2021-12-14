@@ -1,11 +1,20 @@
 .header-outer-container{
-    height: 70vh;
-    background-color: turquoise;
+    height: 90vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(176deg, rgba(255,255,255,1) 0%, rgba(0,153,255,1) 59%, rgba(0,153,255,1) 100%);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border-bottom-right-radius: 50% 60px;
-    border-bottom-left-radius: 50% 60px;
+    background-image: url('../../assets/back.svg');
+    background-size: cover;
+    background-position: center;
+   padding-top: 1em;
+}
+.image-wave{
+    background-image: url('../../assets/back2.svg');
+    background-size: cover;
+    height: 30em;
+    background-position: 0px 0px;
 }
 .header-text-content{
     flex-basis: 50%;
@@ -17,21 +26,23 @@
     width: 40em;
     outline: none;
     border: 0;
+    border-radius: 10px;
 }
 .header-welcome-welcome{
-    color: white;
-    font-size: 50px;
+    color: #ffffff;
+    font-size: 60px;
     font-family: var(--font-family);
     font-weight: 600;
 }
 .header-welcome-sub{
     margin-top: 1em;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-family: var(--font-family);
     font-weight: 600;
     opacity: 0.7;
     width: 30em;
+    line-height: 40px;
 }
 .header-text-content{
     display: flex;
@@ -40,7 +51,7 @@
     align-items: center;
 }
 .header-button{
-    background-color: #CBC0EA;
+    background-color: #00E8B9;
     padding: 1em;
     border: 0;
     border-radius: 10px;
