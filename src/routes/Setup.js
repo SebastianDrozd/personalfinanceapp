@@ -16,7 +16,7 @@ const Setup = () => {
             <p className={page === 'bank' ? 'active-link' : ''}>Bank Information</p>
           </div>
           <div className="status-icon">
-            <p>Addition Information</p>
+            <p className={page === 'info' ? 'active-link' : ''}>Addition Information</p>
           </div>
         </div>
         <div className="setup-inner-container">

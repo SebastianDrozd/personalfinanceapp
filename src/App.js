@@ -10,6 +10,7 @@ import Navbar from "./containers/navbar/Navbar";
 import WelcomeContainer from "./containers/welcomeContainer/WelcomeContainer";
 import { validateToken } from "./helpers/Connections";
 import { setUserStatus } from "./redux/slices/userSlice";
+import AdditionalInfo from "./routes/AdditionalInfo";
 import Bank from "./routes/Bank";
 import Dashboard from "./routes/Dashboard";
 import Home from "./routes/Home";
@@ -55,6 +56,7 @@ function App() {
       
          <Route path="welcome" element={<WelcomeContainer/>} />
          <Route path="bank" element={<Bank/>} />
+         <Route path="additional-info" element={<AdditionalInfo/>} />
       </Route>
     </Routes>
   </BrowserRouter>

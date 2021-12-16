@@ -1,0 +1,11 @@
+.dashboard-outer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard-sidebar{
+    flex-basis: 20%;
+}
+.dashboard-main-content{
+    flex-basis: 80%;
+    height: 100vh;
+}

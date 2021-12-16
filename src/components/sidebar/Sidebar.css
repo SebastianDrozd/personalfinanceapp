@@ -1,0 +1,19 @@
+.sidebar-outer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sidebar-username{
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+.side-bar-accounts-title{
+    font-family: var(--font-family);
+    font-size: 20px;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}

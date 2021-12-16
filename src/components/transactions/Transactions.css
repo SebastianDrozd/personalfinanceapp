@@ -1,0 +1,23 @@
+.transactions-table{
+    width: 43em;
+    font-family: var(--font-family);
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1);
+    padding: 2em;
+   
+}
+.transactions-table td{
+    padding: 1em;
+}
+.trans-cat{
+    font-style: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.trans-amount{
+    text-align: center;
+    font-weight: 700;
+}
+.trans-date{
+    opacity: 0.7;
+    text-align: center;
+}

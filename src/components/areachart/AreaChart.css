@@ -1,0 +1,7 @@
+.area-chart-outer{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1) !important;
+    width: 40em;
+    padding: 3em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+}

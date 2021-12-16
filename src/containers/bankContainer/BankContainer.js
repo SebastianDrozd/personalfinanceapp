@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import PlaidContainer from "../../components/plaid/PlaidContainer";
 import PlaidLinkComp from "../../components/plaid/PlaidLinkComp";
 import { createLinkToken } from "../../helpers/Connections";
@@ -9,6 +10,7 @@ const BankContainer = () => {
   const username = useSelector((state) => state.user.username);
   const [token, setToken] = useState("");
   const dispatch = useDispatch();
+  const navigate = useNavigate()
   useEffect(() => {
     dispatch(setPage({ page: "bank" }));
   }, []);
@@ -19,9 +21,13 @@ const BankContainer = () => {
       console.log(token)
     });
   }, []);
+  const handleBankClick = () => {
+        navigate('/setup/additional-info')
+  }
   return (
     <div>
       <PlaidLinkComp linkToken={token}/>
+      <button onClick={handleBankClick}>Continue</button>
     </div>
   );
 };

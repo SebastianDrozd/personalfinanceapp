@@ -1,0 +1,55 @@
+.outer-chart-container{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1) !important;
+    width: 40em;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.chart-title{
+    font-family: var(--font-family);
+    text-align: center;
+    padding: 1em;
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 500;
+}
+.dash-totals{
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(133, 131, 131);
+   
+}
+.dash-sub{
+    display: flex;
+    justify-content: center;
+}
+.dash-sub-item{
+    font-family: var(--font-family);
+    padding: 0em 1em;
+    margin-left: 5px;
+    padding: 10px;
+}
+.dash-sub-item-active{
+    background-color: rgb(230, 230, 230);
+    border-radius: 30px;
+    
+}
+.dash-totals-container{
+    display: flex;
+    padding: 2em 0em;
+    align-items: center;
+    max-width: 50%;
+    justify-content: space-between;
+    
+}
+.cal-box{
+    border: 1px solid rgb(227, 227, 228);
+    border-radius: 20px;
+    color: rgb(161, 161, 161);
+    margin-left: 1em;
+    
+}

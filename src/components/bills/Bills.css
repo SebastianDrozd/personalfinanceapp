@@ -1,0 +1,10 @@
+.bills-outer-container{
+    box-shadow: 0 3px 10px 9px rgba(0, 0, 0, 0.1) !important;
+    width: 20em;
+    
+    height: 30em;
+    margin-left: 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 30px;
+}
