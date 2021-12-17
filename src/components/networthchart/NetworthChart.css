@@ -6,6 +6,7 @@
     border-radius: 5px;
     background-color: white;
     border-radius: 30px;
+    margin-left: 2em;
 }
 
 .chart-title{
@@ -21,11 +22,14 @@
     font-size: 25px;
     font-weight: 600;
     color: rgb(133, 131, 131);
+    margin-left: 1.5em;
+    
    
 }
 .dash-sub{
     display: flex;
     justify-content: center;
+    margin-right: 2.5em;
 }
 .dash-sub-item{
     font-family: var(--font-family);
@@ -40,9 +44,9 @@
 }
 .dash-totals-container{
     display: flex;
-    padding: 2em 0em;
+    padding: 1em 0em;
     align-items: center;
-    max-width: 50%;
+    max-width: 100%;
     justify-content: space-between;
     
 }

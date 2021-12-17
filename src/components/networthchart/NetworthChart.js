@@ -43,7 +43,7 @@ const NetworthChart = () => {
         <div className='outer-chart-container'>
             <p className='chart-title'>Top Spending Categories</p>
             <BarChart
-          width={600}
+          width={700}
           height={400}
           data={data}
           margin={{

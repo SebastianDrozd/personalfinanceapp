@@ -37,7 +37,7 @@ const SlantedDiv = () => {
             </div>
    
         </div>
-        <div className="image-wave"></div>
+       
         </>
     )
 }

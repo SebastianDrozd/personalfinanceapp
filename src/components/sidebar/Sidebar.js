@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { getAccountBalances } from '../../helpers/Connections'
 import Account from '../account/Account'
+import profile from '../../assets/profile.jpg'
 import './Sidebar.css'
 const Sidebar = () => {
     
@@ -16,10 +17,27 @@ const Sidebar = () => {
     return (
         <>
         <div className="sidebar-outer-container">
-        <img height="125" width="125" src="https://av-www.smartrecruiters.com/candidate-portal-ui/static/assets/images/generic/avatar-placeholder-v2.png" alt="Sebastian Drozd" />
-        <p className='sidebar-username'>{username}</p>
-        <p className='side-bar-accounts-title'>Accounts</p>
-        {accounts && accounts.map(account => (<Account accountName={account.name} balances = {account.balances}/>))}
+        <div className="sidebar-logo">
+            <img src={profile} alt="" />
+        </div>
+        <div>
+        <div className="sidebar-icon sidebar-icon-active">
+        <p><i class="fa fa-home" aria-hidden="true"></i></p>
+        </div>
+        <div className="sidebar-icon">
+        <p><i class="fa fa-google-wallet" aria-hidden="true"></i></p>
+        </div>
+        <div className="sidebar-icon">
+        <p><i class="fa fa-credit-card-alt" aria-hidden="true"></i></p>
+        </div>
+        <div className="sidebar-icon">
+        <p><i class="fa fa-cc-diners-club" aria-hidden="true"></i></p>
+        </div>
+        <div className="sidebar-icon">
+        <p><i class="fa fa-paypal" aria-hidden="true"></i></p>
+        </div>
+        </div>
+        
         </div>
         </>
     )
